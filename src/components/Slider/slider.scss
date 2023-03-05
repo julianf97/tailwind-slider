@@ -1,0 +1,30 @@
+@media only screen and (min-width:576px) and (max-width:767px){ 
+
+    .slider-container{
+        height: 48vh;
+        .image-slider-responsive{
+            background-size: contain;
+        }
+    }
+ 
+}
+
+@media only screen and (min-width:768px) and (max-width:1080px){ 
+    .slider-container{
+        height: 40vh;
+        .image-slider-responsive{
+            background-size: cover;
+        }
+    }
+}
+
+@media only screen and (max-width:575px){ 
+
+    .slider-container{
+        height: 30vh !important;
+        .image-slider-responsive{
+            background-size: cover;
+        }
+    }
+ 
+}

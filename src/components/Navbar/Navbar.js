@@ -4,6 +4,7 @@ import {faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import {faMagnifyingGlass} from '@fortawesome/free-solid-svg-icons';
 import { NavbarNav } from "./Navbar_nav";
 import { CartWidget } from "./CartWidget";
+import "./header-mobile.scss"
 import "./header.scss"
 
 export const Navbar = () => {
@@ -16,6 +17,12 @@ export const Navbar = () => {
                     <img src="./img/1058-logos-logofinal-9985.png" alt="logo"></img>
                     </div>
                     <div className="contenedor__buscador__productos">
+                        <div className="contenedor-barras-mobile">
+                            <FontAwesomeIcon className="iconoBarra" icon={faBars}/>
+                        </div>
+                        <div className="contenedor-lupa-mobile">
+                            <FontAwesomeIcon className="lupa" icon={faMagnifyingGlass}/>
+                        </div>
                         <div className="buscador__productos">
                             <div className="contenedor__icono">
                                 <FontAwesomeIcon className="iconoBarra" icon={faBars}/>
@@ -32,6 +39,9 @@ export const Navbar = () => {
                     </div>
                 </div>
                 <div className="contenedor__medio">
+                    <div className="contenedor__logo__mobile">
+                        <img src="./img/1058-logos-logofinal-9985.png" alt="logo"></img>
+                    </div>
                     <div className="contenedor__buscador">
                         <input type="search" placeholder="¿ Que estás buscando ?" aria-label="Search"></input>
                         <div className="contenedor__lupa">

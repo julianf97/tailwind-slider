@@ -1,8 +1,8 @@
 
-export const ItemListContainer = ({greeting}) => {
+export const ItemListContainer = () => {
     return (
         <div>
-            <h1>{greeting}</h1>
+            <h1></h1>
         </div>
     );
 };
