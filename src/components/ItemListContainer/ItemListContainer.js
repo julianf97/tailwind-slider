@@ -4,14 +4,11 @@ import { pedirDatos } from '../../helpers/pedirDatos';
 import { ItemList } from '../ItemList/ItemList';
 import { useParams } from "react-router-dom";
 
-/* Entendiendo que el useParams me retorna un objeto con los parametros detectados en la url y yo pretendo trabajar con el parametro de categoryId que definí en mi route, podemos desestructurar el categoryId del useParams */
-
 export const ItemListContainer = () => {
 
     const [productos, setProductos] = useState([])
     const [loading, setLoading] = useState(true)
     
-    // Acá lo que hago es quedarme con la propiedad categoryId de los parametros cuando esté en el ItemListContainer
     const { categoryId } = useParams()
 
     console.log(categoryId);

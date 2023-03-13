@@ -6,7 +6,7 @@
         "description": "Esta es la descripcion del producto 1",
         "price": 1500,
         "img": "https://via.placeholder.com/220",
-        "category": "mouse"
+        "category": "auriculares"
     },
     
     {
@@ -15,7 +15,7 @@
         "description": "Esta es la descripcion del producto 2",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "mouse"
+        "category": "gabinete"
 
     },
 
@@ -25,7 +25,7 @@
         "description": "Esta es la descripcion del producto 3",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "teclado"
+        "category": "monitores"
 
     },
 
@@ -35,7 +35,7 @@
         "description": "Esta es la descripcion del producto 4",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "mouse"
+        "category": "pcarmada"
 
     },
 
@@ -45,7 +45,7 @@
         "description": "Esta es la descripcion del producto 5",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "monitor"
+        "category": "monitores"
     },
 
     {
@@ -54,7 +54,7 @@
         "description": "Esta es la descripcion del producto 6",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "monitor"
+        "category": "auriculares"
 
     },
 
@@ -64,7 +64,7 @@
         "description": "Esta es la descripcion del producto 7",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "placa"
+        "category": "gabinete"
 
     },
 
@@ -74,7 +74,7 @@
         "description": "Esta es la descripcion del producto 8",
         "price": 3000,
         "img": "https://via.placeholder.com/220",
-        "category": "placa"
+        "category": "monitores"
 
     }
 ]

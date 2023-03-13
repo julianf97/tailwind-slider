@@ -1,6 +1,7 @@
 import "./seccionHardwarePrincipal.scss"
 
 
+
 export const SeccionHarwarePrincipal = () => { 
 
     return (
