@@ -3,7 +3,7 @@
     .slider-container{
         height: 48vh;
         .image-slider-responsive{
-            background-size: contain;
+            background-size: cover;
         }
     }
  
@@ -11,9 +11,9 @@
 
 @media only screen and (min-width:768px) and (max-width:1080px){ 
     .slider-container{
-        height: 40vh;
+        height: 45vh !important;
         .image-slider-responsive{
-            background-size: cover;
+            object-fit: contain !important;
         }
     }
 }
@@ -21,7 +21,18 @@
 @media only screen and (max-width:575px){ 
 
     .slider-container{
-        height: 30vh !important;
+        height: 25vh !important;
+        .image-slider-responsive{
+            background-size: cover;
+        }
+    }
+ 
+}
+
+@media only screen and (min-width:1081px){ 
+
+    .slider-container{
+        height: 75vh !important;
         .image-slider-responsive{
             background-size: cover;
         }

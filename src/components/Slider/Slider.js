@@ -42,7 +42,7 @@ export const Slider = () => {
     };
 
     return (
-        <div className='slider-container max-w-[1400px] h-[76.5vh] w-full m-auto py-0 px-0 relative group'>
+        <div className='slider-container max-w-[5000px] h-[76.5vh] w-full m-auto py-0 px-0 relative group'>
             <div style={{backgroundImage: `url(${slides[currentIndex].url})`}} className='image-slider-responsive w-full h-full rounded-2x0 bg-top bg-cover bg-no-repeat duration-500'>
             </div>
             {/* Left Arrow */}
