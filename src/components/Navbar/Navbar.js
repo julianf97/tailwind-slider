@@ -1,14 +1,18 @@
+import { useEffect, useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from '@fortawesome/free-solid-svg-icons';
 import { faChevronDown} from '@fortawesome/free-solid-svg-icons';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 import { NavbarNav } from "./Navbar_nav";
 import { CartWidget } from "./CartWidget";
+import { ContenedorInternoProductos } from "./ContenedorInternoProductos";
 import "./header-mobile.scss"
 import "./header.scss"
 
 export const Navbar = () => {
     
+
+
     return(
         <header className="header">
             <div className="header__container">
